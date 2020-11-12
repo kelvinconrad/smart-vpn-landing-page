@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+header {
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+header .nav-item {
+  padding-right: 15px;
+}
+
+header .fixed-top {
+  background-color: white;
+}
+
+header .navbar-btn a {
+  text-decoration: none;
+}
+
+header .navbar-btn .btn-1 {
+  color: #0B132A;
+  font-weight: 400;
+  margin-right: 12px;
+}
+
+header .navbar-btn .btn-fill {
+  border: 1px solid #F53838;
+  border-radius: 50px;
+  color: #F53838;
+  padding: 10px 20px;
+}
+
+header .navbar-light .navbar-toggler {
+  color: #F53838;
+  border: none;
+}
+
+/* Banner section */
+.banner {
+  margin-top: 95px;
+}
+
+.banner .content-box h1 {
+  line-height: 50px;
+  padding-bottom: 25px;
+}
+
+.banner .content-box p {
+  line-height: 30px;
+  font-size: 18px;
+  margin-bottom: 80px;
+  font-weight: 300;
+  color: #4f5665b7;
+}
+
+.banner .content-box .button-fill {
+  margin: 50px 0 35px 0;
+}
+
+.banner .content-box .button-fill a {
+  background-color: #F53838;
+  text-decoration: none;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+}
+
+.banner .user-count {
+  margin: 100px 0;
+  -webkit-box-shadow: 4px 10px 7px 5px rgba(109, 108, 108, 0.027);
+          box-shadow: 4px 10px 7px 5px rgba(109, 108, 108, 0.027);
+}
+
+.banner .user-count .count-box {
+  padding: 60px;
+}
+
+.banner .user-count .count-box .icon {
+  background-color: #FFECEC;
+  color: #F53838;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 50px;
+}
+
+.banner .user-count .count-box .count-item #counters_1, .banner .user-count .count-box .count-item #counters_2, .banner .user-count .count-box .count-item #counters_3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.banner .user-count .count-box .count-item p {
+  color: #4f5665b7;
+}
+
+.features {
+  margin: 200px 0;
+}
+
+.features .illustration {
+  margin-right: 50px;
+}
+
+.features .content-box h1 {
+  line-height: 50px;
+  padding-bottom: 25px;
+}
+
+.features .content-box p {
+  color: #4f5665b7;
+  font-size: 16px;
+}
+
+.features .content-box .list-group-flush > .list-group-item {
+  border-width: 0 !important;
+}
+
+.features .content-box .f-list li .icon {
+  margin-right: 10px;
+  background-color: #2FAB73;
+  color: white;
+  height: 30px;
+  width: 30px;
+  padding: 2px;
+  border-radius: 50%;
+}
+
+.pricing {
+  margin: 200px 0;
+}
+
+.pricing .content {
+  margin-bottom: 25px;
+}
+
+.pricing .content h1 {
+  margin-bottom: 15px;
+}
+
+.pricing .content h5 {
+  font-weight: 300;
+  color: #4f5665b7;
+  margin-bottom: 40px;
+}
+
+.pricing .pricing-cards .plans {
+  padding-bottom: 20px;
+}
+
+.pricing .pricing-cards .plans .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: #4f5665b7 2px solid;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.pricing .pricing-cards .plans .card img {
+  width: 50%;
+  padding: 50px 0 10px 0;
+}
+
+.pricing .pricing-cards .plans .card .card-body {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.pricing .pricing-cards .plans .card .card-body .list-group-flush > .list-group-item {
+  border-width: 0 !important;
+}
+
+.pricing .pricing-cards .plans .card .card-body .list-group-item {
+  padding: 0 !important;
+}
+
+.pricing .pricing-cards .plans .card .card-body li {
+  color: #4f5665b7;
+  font-weight: 300;
+}
+
+.pricing .pricing-cards .plans .card .card-body li .icon {
+  margin-right: 10px;
+  color: #2FAB73;
+  height: 30px;
+  width: 30px;
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.pricing .pricing-cards .plans .card h5 {
+  padding: 20px 0 30px 0;
+  font-weight: 700;
+}
+
+.pricing .pricing-cards .plans .card h5 span {
+  font-weight: 400;
+  color: #4f5665b7;
+}
+
+.pricing .pricing-cards .plans .card .btn-subscribe {
+  border: 2px solid #F53838;
+  padding: 12px 40px;
+  color: #F53838;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 20px;
+  -webkit-transition: all 200ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 200ms cubic-bezier(0.77, 0, 0.175, 1);
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.pricing .pricing-cards .plans .card .btn-subscribe:hover {
+  background-color: #F53838;
+  color: white;
+}
+
+.pricing .pricing-cards .plans .card:hover {
+  border-radius: #F53838 2px solid;
+}
+
+.pricing .pricing-cards .plans .active {
+  border-radius: #F53838;
+}
+
+.location h5 {
+  font-weight: 300;
+  color: #4f5665b7;
+  margin: 30px 0 50px 0;
+}
+
+.location .map {
+  padding: 50px 0;
+}
+
+.clients {
+  margin: 100px;
+}
+
+.clients img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.clients img:hover {
+  -webkit-filter: grayscale(1%);
+  filter: grayscale(1%);
+  cursor: pointer;
+}
+
+.testimonials {
+  margin: 150px 0;
+}
+
+.testimonials h5 {
+  font-weight: 300;
+  color: #4f5665b7;
+  margin: 30px 0 50px 0;
+}
+
+.testimonials .testimonial-cards {
+  margin-top: 100px;
+}
+
+.testimonials .testimonial-cards .card {
+  padding: 15px;
+  border-radius: 15px;
+  border: 2px solid #4f5665b7;
+}
+
+.testimonials .testimonial-cards .card .row {
+  margin-bottom: 20px;
+}
+
+.testimonials .testimonial-cards .card .row img {
+  width: 60%;
+}
+
+.testimonials .testimonial-cards .card .row h5 {
+  margin: 0;
+  font-weight: 500;
+  color: #0B132A;
+}
+
+.testimonials .testimonial-cards .card .row p {
+  font-size: 18px;
+}
+
+.testimonials .testimonial-cards .card .row .icon {
+  color: #FEA250;
+  padding: 3px;
+}
+
+.testimonials .testimonial-cards .card .row .text-muted {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.testimonials .testimonial-cards .card p {
+  font-size: 16px;
+  color: #0B132A;
+  line-height: 30px;
+}
+
+.testimonials .testimonial-cards .card:hover {
+  border-radius: 15px;
+  border: 2px solid #F53838;
+  -webkit-transition: all 300ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 300ms cubic-bezier(0.77, 0, 0.175, 1);
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
