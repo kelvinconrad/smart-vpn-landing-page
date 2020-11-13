@@ -19,17 +19,26 @@ $light-grey:#F8F8F8;
 body{
     font-family: 'Rubik', sans-serif;
 }
-
+html{
+    scroll-behavior: smooth;
+}
+.reveal{
+    opacity: 0;
+    transform: translate3d(0, 100px, 0);
+    transition: opacity 0.8s, transform 0.8s;
+    &_visible {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+}
 // Navigation
 header{
     font-size: 16px;
     font-weight: 300;
     padding-top: 20px;
+    background-color:white;
     .nav-item{
         padding-right: 15px;
-    }
-    .fixed-top{
-        background-color: white;
     }
     .navbar-btn{
         a{
@@ -218,9 +227,6 @@ header{
                     color: white;
                 }
                }
-               &:hover{
-                border-radius: $red 2px solid;
-            }
             }
             .active{
                 border-radius: $red;
@@ -312,7 +318,10 @@ footer{
     background-color: $light-grey;
     .subscribe{
         background-color: white;
+        box-shadow: 4px 10px 7px 5px rgba(109, 108, 108, 0.027);
         border-radius: 5px;
+        position: relative;
+        top: -90px;
         .row{
             padding: 50px;
             h5{
@@ -334,6 +343,56 @@ footer{
         }
     }
     .footer-links{
-        
+        margin-bottom: 15px;
+        .col-right{
+            .footer-logo{
+                margin-bottom: 25px;
+            }
+            h5{
+                color: $light-dark;
+                margin-bottom: 50px;
+            }
+            span{
+                font-weight: 300;
+                color: $light-dark;
+            }
+            .social-icons{
+                margin-bottom: 30px;
+               .icon{
+                color: $red;
+                background-color: white;
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                margin-right: 5px;
+                padding: 10px;
+                box-shadow:4px 2px 3px rgba(247, 79, 79, 0.144);
+               }
+            }
+        }
+        .col-left{
+            h5{
+                margin-bottom: 20px;
+            }
+            .links{
+                li{
+                    list-style: none;
+                    color: $light-dark;
+                    font-weight: 300;
+                    padding-bottom: 15px;
+                    &:hover{
+                        cursor: pointer;
+                        color: $red;
+                        transition: ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+    .attribution{
+        a{
+            text-decoration: none;
+            color: $red;
+        }
     }
 }

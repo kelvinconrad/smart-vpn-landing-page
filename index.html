@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
+<body class="scrollableElement">
     <!-- Main Header -->
     <header class="navigation">
         <div class="container">
@@ -39,19 +39,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">About</a>
+                      <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#features">Features</a>
                       </li>
                       <li class="nav-item active">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#pricing">Pricing</a>
                       </li>
                       <li class="nav-item active">
-                        <a class="nav-link" href="#">Testimonials</a>
+                        <a class="nav-link" href="#Testimonial">Testimonials</a>
                       </li>
                       <li class="nav-item active">
-                        <a class="nav-link" href="#">Help</a>
+                        <a class="nav-link" href="#help">Help</a>
                       </li>
                   </ul>
                     <div class="navbar-btn ml-auto">
@@ -68,7 +68,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
-                    <div class="content-box">
+                    <div class="content-box reveal">
                         <h1>Want anything to be easy with <strong>SmartVPN.</strong></h1>
                         <p>Provide a network for all your needs with ease and fun using SmartVPN discover interesting features from us.</p>
                         <div class="button-fill">
@@ -76,7 +76,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-6 col-sm-12 reveal">
                     <img  src="images/Illustration-1.png" alt="" style="max-width: 100%; padding: 10px 0;">
                 </div>
             </div>
@@ -101,7 +101,6 @@
                                     <span class="counter" data-Speed="4000" data-Easing="linear" data-TargetNum="30"></span>+
                                 </div>
                                 <p>Locations</p>
-                              
                             </div>
                         </div>
                     </div>
@@ -122,10 +121,10 @@
     </section>
 
     <!-- Feature section -->
-    <section class="features">
+    <section class="features reveal" id="features">
         <div class="container">
             <div class="row">
-                <div class="col-md-7 col-sm-12">
+                <div class="col-md-7 col-sm-12 reveal">
                     <div class="illustration  img-responsive">
                         <img src="images/Illustration-2.png" alt="" style="max-width: 100%; padding: 10px 0;">
                     </div>
@@ -155,7 +154,7 @@
     </section>
 
     <!-- Pricing Section -->
-    <section class="pricing">
+    <section class="pricing reveal" id="pricing"> 
         <div class="container">
             <div class="content">
                 <h1 class="text-center">Choose Your Plan</h1>
@@ -164,9 +163,11 @@
             <div class="pricing-cards">
                 <div class="row">
 
-                    <div class="col-md-4 col-sm-12">
-                        <div class="plans">
+                    <!-- <div class="col-lg-4 col-md-4 col-sm-12"> -->
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="plans reveal">
                             <div class="card" style="width: 20rem;" data-tilt data-tilt-max="5" data-tilt-axis="x" data-tilt-speed="400" data-tilt-perspective="500">
+                                <!-- Package Image -->
                                 <img src="images/Free.png" class="card-img-top" alt="free plan">
                                 <div class="card-body">
                                   <h5 class="card-title text-center">Free Plan</h5>
@@ -194,9 +195,10 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-12">
-                        <div class="plans">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="plans reveal">
                             <div class="card" style="width: 20rem;" data-tilt data-tilt-max="5" data-tilt-axis="x" data-tilt-speed="400" data-tilt-perspective="500">
+                                <!-- Package Image -->
                                 <img src="images/Standard.png" class="card-img-top" alt="Standard">
                                 <div class="card-body">
                                   <h5 class="card-title text-center">Standard Plan</h5>
@@ -224,9 +226,10 @@
                               </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12">
-                        <div class="plans">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="plans reveal">
                             <div class="card" style="width: 20rem;" data-tilt data-tilt-max="5" data-tilt-axis="x" data-tilt-speed="400" data-tilt-perspective="500">
+                                <!-- Package Image -->
                                 <img src="images/Premium.png" class="card-img-top" alt="Premium plan">
                                 <div class="card-body">
                                   <h5 class="card-title text-center">Premium Plan</h5>
@@ -263,11 +266,12 @@
     <!-- Our Location -->
     <section class="location">
         <div class="container">
-            <div class="content">
+            <div class="content reveal">
                 <h1 class="text-center">Huge Global Network <br> of Fast VPN</h1>
                 <h5 class="text-center">See SmartVPN everywhere to make it easier for you when you move <br>locations.</h5>
             </div>
-            <div class="map">
+            <!-- Map image -->
+            <div class="map reveal">
                 <img src="images/map.png" alt="" style="max-width: 100%; padding: 10px 0;">
             </div>
         </div>
@@ -287,16 +291,16 @@
 </section>
 
 <!-- Testimonial section -->
-<section class="testimonials">
+<section class="testimonials" id="Testimonial">
     <div class="container">
-        <div class="content">
+        <div class="content reveal">
             <h1 class="text-center">Trusted by Thousands of <br>Happy Customer</h1>
             <h5 class="text-center">These are the stories of our customers who have joined us with great<br> pleasure when using this crazy feature.</h5>
         </div>
 
-        <div class="testimonial-corousel owl-carousel owl-theme">
+        <div class="testimonial-corousel owl-carousel owl-theme reveal">
             <!-- Tesimonial Cards -->
-            <div class="testimonial-cards" data-tilt data-tilt-max="1" data-tilt-axis="x" data-tilt-speed="400" data-tilt-perspective="1000">
+            <div class="testimonial-cards" >
                 <div class="card mb-3" style="max-width: 400px;">
                     <div class="row no-gutters">
                     <div class="col-md-3">
@@ -316,7 +320,7 @@
                 </div>
             </div>
 
-            <div class="testimonial-cards" data-tilt data-tilt-max="1" data-tilt-axis="x" data-tilt-speed="400" data-tilt-perspective="1000">
+            <div class="testimonial-cards" >
                 <div class="card mb-3" style="max-width: 400px;">
                     <div class="row no-gutters">
                     <div class="col-md-3">
@@ -336,7 +340,7 @@
                 </div>
             </div>
 
-            <div class="testimonial-cards" data-tilt data-tilt-max="1" data-tilt-axis="x" data-tilt-speed="400" data-tilt-perspective="1000">
+            <div class="testimonial-cards">
                 <div class="card mb-3" style="max-width: 400px;">
                     <div class="row no-gutters">
                     <div class="col-md-3">
@@ -360,8 +364,8 @@
     </div>
 </section>
 
-<!-- Footer Section -->
 
+<!-- Footer Section -->
 <footer>
     <div class="container">
         <div class="subscribe">
@@ -372,7 +376,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="btn-subscribe">
-                        <a href="">Subscribe Now</a>
+                        <a href="#">Subscribe Now</a>
                     </div>
                 </div>
             </div>
@@ -380,14 +384,56 @@
 
         <div class="footer-links">
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-md-5 col-right">
+                    <!-- Footer-Logo -->
                     <div class="footer-logo">
                         <img src="images/Logo.png" alt="">
                     </div>
-                    <h5>SmartVPN <span>is a private virtual network that has unique features and has high security.</span></h5>
+                    <h5>SmartVPN <span>is a private virtual network that<br> has unique features and has high security.</span></h5>
+                    <div class="social-icons">
+                        <i class="icon" data-feather="facebook"></i>
+                        <i class="icon" data-feather="twitter"></i>
+                        <i class="icon" data-feather="instagram"></i>
+                    </div>
+                </div>
+                <!-- Footer Links -->
+                <div class="col-md-7 col-left">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h5>Product</h5>
+                            <ul class="links">
+                                <li><a href="#"></a>Download</li>
+                                <li><a href="#"></a>Pricing</li>
+                                <li><a href="#"></a>Location</li>
+                                <li><a href="#"></a>Server</li>
+                                <li><a href="#"></a>Countries</li>
+                                <li><a href="#"></a>Blog</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h5>Product</h5>
+                            <ul class="links">
+                                <li><a href="#"></a>SmartVPN?</li>
+                                <li><a href="#"></a>FAQ</li>
+                                <li><a href="#"></a>Tutorials</li>
+                                <li><a href="#"></a>About Us</li>
+                                <li><a href="#"></a>Privacy Policy</li>
+                                <li><a href="#"></a>Terms of Service</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h5>Earn Money</h5>
+                            <ul class="links">
+                                <li><a href="#"></a>Affilate</li>
+                                <li><a href="#"></a>Become Partner</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <!-- Attribution -->
+        <p class="attribution text-center">&copy; Copywrite 2020 <a href="https://github.com/kelvinconrad" target="blank">Kelvin Conrad</a>.</p>
     </div>
 </footer>
 
@@ -408,8 +454,9 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/multi-animated-counter.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.0.3/tilt.jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script src="https://unpkg.com/magic-scroll.js/dist/MagicScroll.umd.js"></script>
 
 
     <!-- Main Js -->
