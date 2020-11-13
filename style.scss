@@ -306,3 +306,34 @@ header{
         }
     }
 }
+
+// Footer Section
+footer{
+    background-color: $light-grey;
+    .subscribe{
+        background-color: white;
+        border-radius: 5px;
+        .row{
+            padding: 50px;
+            h5{
+                font-weight: 300;
+                color: $light-dark;
+            }
+            .btn-subscribe{
+                margin: 80px 0 50px 0;
+                a{
+                    background-color: $red;
+                    text-decoration: none;
+                    color: white;
+                    padding: 15px 30px;
+                    border: none;
+                    border-radius: 10px;
+                    box-shadow: 4px 5px 5px 2px rgba(247, 45, 45, 0.13);
+                }
+            }
+        }
+    }
+    .footer-links{
+        
+    }
+}

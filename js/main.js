@@ -7,6 +7,7 @@ $('.clients-corousel').owlCarousel({
     loop:true,
     margin:50,
     autoplay:true,
+    autoplayTimeout:8000,
     nav:false,
     responsive:{
         0:{
@@ -24,7 +25,7 @@ $('.clients-corousel').owlCarousel({
 
 $('.testimonial-corousel').owlCarousel({
     loop:true,
-    margin:25,
+    margin:30,
     autoplay:true,
     nav:false,
     responsive:{

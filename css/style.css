@@ -343,4 +343,37 @@ header .navbar-light .navbar-toggler {
   transition: all 300ms cubic-bezier(0.77, 0, 0.175, 1);
   cursor: pointer;
 }
+
+footer {
+  background-color: #F8F8F8;
+}
+
+footer .subscribe {
+  background-color: white;
+  border-radius: 5px;
+}
+
+footer .subscribe .row {
+  padding: 50px;
+}
+
+footer .subscribe .row h5 {
+  font-weight: 300;
+  color: #4f5665b7;
+}
+
+footer .subscribe .row .btn-subscribe {
+  margin: 80px 0 50px 0;
+}
+
+footer .subscribe .row .btn-subscribe a {
+  background-color: #F53838;
+  text-decoration: none;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 5px 5px 2px rgba(247, 45, 45, 0.13);
+          box-shadow: 4px 5px 5px 2px rgba(247, 45, 45, 0.13);
+}
 /*# sourceMappingURL=style.css.map */
