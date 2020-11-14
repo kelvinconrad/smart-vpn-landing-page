@@ -19,3 +19,24 @@ The Design file(figma) is included in order to inspect the design in more detail
 
 You will find all the required images in the `/images` folder. The images are already optimized.
 
+## Building your project
+
+Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+
+1. Clone the Repo (<https://github.com/kelvinconrad/smart-vpn-landing-page.git>)
+2. Create a new folder on your pc and copy the Project-File folder to your new created folder
+3. Start the project
+
+**Have fun building!** 🚀
+
+## Creator
+
+Kelvin Conrad – [Twitter](https://twitter.com/Klvnconrad) – klvnconrad@gmail.com
+
+## Contributing
+
+1. Fork it (<https://github.com/kelvinconrad/smart-vpn-landing-page.git/fork>)
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
