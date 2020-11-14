@@ -23,7 +23,7 @@ You will find all the required images in the `/images` folder. The images are al
 
 Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
 
-1. Clone the Repo (<https://github.com/kelvinconrad/smart-vpn-landing-page.git>)
+1. Clone the Repo (https://github.com/kelvinconrad/smart-vpn-landing-page.git)
 2. Create a new folder on your pc and copy the Project-File folder to your new created folder
 3. Start the project
 
